@@ -30,26 +30,6 @@ body {
     color: rgb(245, 245, 245);
 }
 
-@media screen and (max-width: 800px) {
-    body {
-        font-size: 1.2em;
-        margin: 0;
-    }
-    .page-wrapper {
-        margin: 0;
-    }
-    .profile-pic {
-        margin-top: 40px;
-    }
-    .grid {
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        grid-template-columns: repeat(auto-fit, minmax(385px, max-content));
-        gap: 0;
-    }
-}
-
 .page-wrapper {
     max-width: 800px;
     margin: 60px auto;
@@ -99,4 +79,24 @@ hr {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, max-content));
     gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 1.2em;
+        margin: 0;
+    }
+    .page-wrapper {
+        margin: 0;
+    }
+    .profile-pic {
+        margin-top: 40px;
+    }
+    .grid {
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(385px, max-content));
+        gap: 0;
+    }
 }
