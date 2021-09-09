@@ -93,7 +93,7 @@ hr {
         text-align: center;
         justify-content: center;
         align-content: center;
-        grid-template-columns: repeat(auto-fit, minmax(385px, max-content));
+        grid-template-columns: repeat(auto-fit, 100%);
         gap: 0;
     }
 }
