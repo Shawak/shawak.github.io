@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 .night {
     position: relative;
     top: 0;
