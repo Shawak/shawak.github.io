@@ -84,15 +84,12 @@ hr {
 @media screen and (max-width: 800px) {
     body {
         font-size: 1.2em;
-        margin: 0;
     }
     .page-wrapper {
         margin: 0;
     }
-    .profile-pic {
-        margin-top: 40px;
-    }
     .grid {
+        margin-top: 40px;
         text-align: center;
         justify-content: center;
         align-content: center;
