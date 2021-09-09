@@ -26,8 +26,6 @@ body {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     font-family: "HelveticaNeue", HelveticaNeue, Helvetica, Arial, Sans-Serif;
     font-size: 1.1em;
-    max-width: 800px;
-    margin: 60px auto;
     background-color: rgb(10,10,20);
     color: rgb(245, 245, 245);
 }
@@ -40,6 +38,8 @@ body {
 }
 
 .page-wrapper {
+    max-width: 800px;
+    margin: 60px auto;
     padding: 20px;
 }
 
@@ -96,7 +96,7 @@ hr {
         text-align: center;
         justify-content: center;
         align-content: center;
-        grid-template-columns: repeat(auto-fit, minmax(370px, max-content));
+        grid-template-columns: repeat(auto-fit, minmax(385px, max-content));
         gap: 0;
     }
 }
