@@ -86,10 +86,9 @@ hr {
         font-size: 1.2em;
     }
     .page-wrapper {
-        margin: 0;
+        margin: 40px auto;
     }
     .grid {
-        margin-top: 40px;
         text-align: center;
         justify-content: center;
         align-content: center;
