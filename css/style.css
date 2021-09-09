@@ -35,6 +35,19 @@ body {
         font-size: 1.2em;
         margin: 0;
     }
+    .page-wrapper {
+        margin: 0;
+    }
+    .profile-pic {
+        margin-top: 40px;
+    }
+    .grid {
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(385px, max-content));
+        gap: 0;
+    }
 }
 
 .page-wrapper {
@@ -86,17 +99,4 @@ hr {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, max-content));
     gap: 20px;
-}
-
-@media screen and (max-width: 800px) {
-    .profile-pic {
-        margin-top: 50px;
-    }
-    .grid {
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        grid-template-columns: repeat(auto-fit, minmax(385px, max-content));
-        gap: 0;
-    }
 }
