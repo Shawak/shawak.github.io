@@ -2,6 +2,7 @@ html {
     --scrollbar_background: rgb(38, 38, 48);
     --scrollbar_color: #868686;
     --scrollbar_hover: #555;
+    overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
@@ -21,7 +22,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 body {
-    overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: var(--scrollbar_color) var(--scrollbar_background);
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
